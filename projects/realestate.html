@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nairobi Real Estate Valuation Model | Paul Muriuki</title>
+    <meta name="description" content="A Nairobi property valuation model: Playwright scraping, scikit-learn modelling, and a Streamlit app, built by Paul Muriuki." />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Nairobi Real Estate Valuation Model | Paul Muriuki" />
+    <meta property="og:description" content="Scraped listings, feature engineering, a scikit-learn model, and a Streamlit app." />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90' fill='%23ff9f43'%3EP%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container nav-container">
+        <a href="../index.html" class="logo"><span class="logo-symbol">&lt;/&gt;</span>Paul Muriuki</a>
+        <a href="../index.html#projects" class="nav-button">← All projects</a>
+      </div>
+    </header>
+
+    <main class="section detail">
+      <div class="container">
+        <span class="section-label">Project</span>
+        <h1>Nairobi Real Estate Valuation Model</h1>
+        <p class="detail-lead">
+          A machine learning project that estimates Nairobi property prices
+          from listing data, from scraping through to a usable app.
+        </p>
+
+        <div class="project-tags"><span>Python</span><span>Playwright</span><span>Pandas</span><span>Scikit-learn</span><span>Streamlit</span></div>
+
+        <div class="project-visual realestate-visual detail-visual"><span>NAIROBI / REAL ESTATE</span><div class="visual-symbol">⌁</div></div>
+
+        <div class="detail-body">
+          <h2>Overview</h2>
+          <p>Nairobi has no public, clean dataset of property prices, so this project builds one and then models it. It covers the full pipeline, from collecting listings to presenting predictions in an app.</p>
+
+          <h2>Pipeline</h2>
+          <ul>
+            <li>Collect listings with Playwright browser automation.</li>
+            <li>Clean and preprocess the data with Pandas.</li>
+            <li>Explore the data and engineer features that describe each property and its location.</li>
+            <li>Train and evaluate models in scikit-learn.</li>
+            <li>Serve predictions through a Streamlit app.</li>
+          </ul>
+          <h2>Limitations</h2>
+          <p>Scraped listings show asking prices, not final sale prices, so any model trained on them inherits that seller-side bias. Treat predictions as an estimate of the market's asking level, not a transaction value.</p>
+
+          <a href="https://github.com/Atermis37/nairobi-realestate" class="button button-primary" target="_blank" rel="noopener">View repository ↗</a>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>© <span id="year"></span> Paul Muriuki</p>
+        <a href="../index.html">Back to portfolio ↑</a>
+      </div>
+    </footer>
+    <script src="../script.js"></script>
+  </body>
+</html>

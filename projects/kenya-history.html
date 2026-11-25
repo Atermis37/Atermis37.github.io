@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kenya, a history | Paul Muriuki</title>
+    <meta name="description" content="A scroll-driven history of Kenya where every claim is footnoted to a source and unverified claims are visibly flagged. Built with plain HTML, CSS and JavaScript." />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Kenya, a history | Paul Muriuki" />
+    <meta property="og:description" content="A scroll-driven history of Kenya with footnoted sources and visible flags on unverified claims." />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90' fill='%23ff9f43'%3EP%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container nav-container">
+        <a href="../index.html" class="logo"><span class="logo-symbol">&lt;/&gt;</span>Paul Muriuki</a>
+        <a href="../index.html#projects" class="nav-button">← All projects</a>
+      </div>
+    </header>
+
+    <main class="section detail">
+      <div class="container">
+        <span class="section-label">Project</span>
+        <h1>Kenya, a history</h1>
+        <p class="detail-lead">
+          A scroll-driven history of Kenya covering its history, 12 community
+          profiles, and culture. Every claim is footnoted to a source, and
+          claims without one are visibly flagged.
+        </p>
+
+        <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>GitHub Pages</span></div>
+
+        <div class="project-visual kenya-visual detail-visual"><span>KENYA / HISTORY</span><div class="visual-symbol">❖</div></div>
+
+        <div class="detail-body">
+          <h2>Overview</h2>
+          <p>Claims in the site are footnoted to numbered sources. A claim that is not yet backed by a source carries a SOURCE PENDING badge instead of being presented as settled.</p>
+
+          <h2>What it contains</h2>
+          <ul>
+            <li>6 chapters that tell the story as you scroll.</li>
+            <li>12 community profiles.</li>
+            <li>19 numbered sources.</li>
+            <li>A reference page listing the claims that have a source, the research gaps, and the books I have not yet read.</li>
+          </ul>
+
+          <h2>How it is built</h2>
+          <ul>
+            <li>Plain HTML, CSS and vanilla JavaScript, with no framework.</li>
+            <li>CSS custom properties, including registered properties with <code>@property</code>.</li>
+            <li>Scroll-driven presentation using IntersectionObserver.</li>
+            <li>Keyboard-accessible filters, and reduced-motion support for visitors who ask for it.</li>
+            <li>Hosted on GitHub Pages.</li>
+          </ul>
+
+          <h2>Limits</h2>
+          <ul>
+            <li>The community profiles are drafts. Members of those communities have not reviewed them yet.</li>
+            <li>Some claims are still marked SOURCE PENDING.</li>
+            <li>There are no photographs yet.</li>
+          </ul>
+          <p>The site is a research project in progress.</p>
+
+          <a href="https://atermis37.github.io/kenya-history/" class="button button-primary" target="_blank" rel="noopener">Visit live site ↗</a>
+          <a href="https://github.com/Atermis37/kenya-history" class="button button-secondary" target="_blank" rel="noopener">View repository ↗</a>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>© <span id="year"></span> Paul Muriuki</p>
+        <a href="../index.html">Back to portfolio ↑</a>
+      </div>
+    </footer>
+    <script src="../script.js"></script>
+  </body>
+</html>

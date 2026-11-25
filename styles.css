@@ -1,4 +1,4 @@
-/* Portfolio: Paul Muriuki. Selectors match the HTML as written. */
+/* Portfolio: Paul Muriuki.*/
 :root{
   --bg:#070d17;--bg2:#0a1322;--surface:#0e1828;--border:#1a2a42;--border-h:#2d5278;
   --text:#eaf0f8;--muted:#93a4bb;
@@ -148,7 +148,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
 .footer-content{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px;color:var(--muted);font-size:.85rem}
 .footer-content a:hover{color:var(--sun)}
 
-/* DETAIL PAGES (inline styles in those files still work) */
+/* DETAIL PAGES */
 .section h1{letter-spacing:-1.5px;line-height:1.15}
 .section h2{font-size:1.5rem;margin-top:8px}
 
@@ -178,6 +178,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
   .hero-content>*{opacity:1;transform:none}
 }
 
+/* ADDITIONS: contact card, hero links, detail pages */
 .contact-card{display:flex;flex-direction:column;padding:12px 28px;border:1px solid var(--border);border-radius:var(--r);background:var(--surface)}
 .contact-card a{display:flex;justify-content:space-between;gap:16px;padding:16px 0;border-bottom:1px solid var(--border);color:var(--muted);overflow-wrap:anywhere;transition:color var(--t)}
 .contact-card a:last-child{border-bottom:0}
@@ -193,3 +194,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
 .detail-body ul{margin:0 0 20px 20px;list-style:disc;color:var(--muted)}
 .detail-body li{margin-bottom:6px}
 .detail-body .button{margin-top:18px}
+
+/* Kenya, a history */
+.kenya-visual{background:linear-gradient(135deg,#3a1d1d,#1f4a2e);color:#ffb38a}
+.detail-body .button{margin-right:10px}

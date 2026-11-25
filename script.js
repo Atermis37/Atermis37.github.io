@@ -24,7 +24,7 @@ if (menuToggle && navigation) {
     });
 }
 
-// Cursor-following glow on project cards (feeds --mx / --my in styles.css)
+
 document.querySelectorAll(".project-card").forEach(card => {
     card.addEventListener("pointermove", event => {
         const box = card.getBoundingClientRect();
